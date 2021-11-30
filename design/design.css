@@ -1,0 +1,33 @@
+.login-sidebar{
+	-fx-background-color: #000000;
+}
+.login-main{
+	-fx-background-color:white;
+}
+.login-forgot{
+	-fx-background-color:white;
+	-fx-text-fill:gray;
+	-fx-cursor:hand;
+}
+.login-button{
+	-fx-text-fill:#444444;
+	-fx-background-radius:50px;
+	-fx-border-radius:50px;
+	-fx-background-color:white;
+	-fx-border-color:#444444;
+	-fx-border-width:1px;
+	-fx-border-style:solid ;
+}
+.login-button:hover{
+	-fx-text-fill:white;
+	-fx-background-color:#0DA9F1;
+	-fx-border-color:#0DA9F1;
+	-fx-cursor:hand;
+}
+.colse-button:hover{
+	-fx-cursor:hand;
+}
+.filed-decoration{
+	-fx-border-radius:70px;
+	-fx-background-radius:70px;
+}
