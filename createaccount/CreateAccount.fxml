@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="create_account.CreateAccountController">
+   <content>
+      <BorderPane prefHeight="600.0" prefWidth="450.0">
+         <top>
+            <ScrollPane prefHeight="600.0" BorderPane.alignment="CENTER">
+               <content>
+                  <AnchorPane prefHeight="600.0" prefWidth="450.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/back-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="405.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/cross.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="15.0" layoutY="17.0" mnemonicParsing="false" onMouseClicked="#backToLogin" opacity="0.0" style="-fx-background-radius: 100;" text="Bu" />
+                        <Button layoutX="399.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" style="-fx-background-radius: 100;" text="Bu" />
+                        <Label layoutX="95.0" layoutY="21.0" text="Account Registration">
+                           <font>
+                              <Font name="Impact" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="174.0" layoutY="90.0" text="Fill the form carefully to create account">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="94.0" layoutY="138.0" text="Personal Information" textFill="#7c7c7c">
+                           <font>
+                              <Font name="Impact" size="28.0" />
+                           </font>
+                        </Label>
+                        <TextArea layoutX="53.0" layoutY="221.0" prefHeight="30.0" prefWidth="340.0" promptText="Full Name">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea layoutX="53.0" layoutY="300.0" prefHeight="30.0" prefWidth="340.0" promptText="ID Card No">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea layoutX="53.0" layoutY="373.0" prefHeight="30.0" prefWidth="340.0" promptText="Mobile No">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <ComboBox layoutX="55.0" layoutY="450.0" prefHeight="40.0" prefWidth="340.0" promptText="Gender" styleClass="filed-decoration" stylesheets="@../design/design.css" />
+                        <ComboBox layoutX="55.0" layoutY="527.0" prefHeight="40.0" prefWidth="340.0" promptText="Marital Status" styleClass="filed-decoration" stylesheets="@../design/design.css" />
+                        <ComboBox layoutX="55.0" layoutY="600.0" prefHeight="40.0" prefWidth="340.0" promptText="Religion" styleClass="filed-decoration" stylesheets="@../design/design.css" />
+                        <DatePicker layoutX="55.0" layoutY="680.0" prefHeight="40.0" prefWidth="340.0" promptText="Date Of Birth" />
+                        <TextArea layoutX="55.0" layoutY="752.0" prefHeight="30.0" prefWidth="340.0" promptText="City">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea layoutX="55.0" layoutY="836.0" prefHeight="30.0" prefWidth="340.0" promptText="Address">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <Label layoutX="94.0" layoutY="925.0" text="Account Information" textFill="#7c7c7c">
+                           <font>
+                              <Font name="Impact" size="28.0" />
+                           </font>
+                        </Label>
+                        <TextArea layoutX="55.0" layoutY="996.0" prefHeight="30.0" prefWidth="340.0" promptText="Account No">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea layoutX="55.0" layoutY="1080.0" prefHeight="30.0" prefWidth="340.0" promptText="Balance">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <ComboBox layoutX="55.0" layoutY="1160.0" prefHeight="40.0" prefWidth="340.0" promptText="Account Type" styleClass="filed-decoration" stylesheets="@../design/design.css" />
+                        <TextArea layoutX="55.0" layoutY="1235.0" prefHeight="30.0" prefWidth="340.0" promptText="PIN">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <ComboBox layoutX="55.0" layoutY="1316.0" prefHeight="40.0" prefWidth="340.0" promptText="Security Question" styleClass="filed-decoration" stylesheets="@../design/design.css" />
+                        <TextArea layoutX="55.0" layoutY="1389.0" prefHeight="30.0" prefWidth="340.0" promptText="Answer">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="55.0" layoutY="1480.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/150x150.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="223.0" layoutY="1569.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="163.0" styleClass="login-button" stylesheets="@../design/design.css" text="    Browse Picture" />
+                        <Label layoutX="232.0" layoutY="1498.0" text="Profile Picture">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="132.0" layoutY="1672.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" styleClass="login-button" stylesheets="@../design/design.css" text="Create Account">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="242.0" layoutY="1572.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/upload.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </top>
+      </BorderPane>
+   </content>
+</ScrollPane>
